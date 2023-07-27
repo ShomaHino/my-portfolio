@@ -2,14 +2,67 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <div class="header">My-portfolio</div>
+
+    <section class="top">
+      <div class="name">
+        <h1>日野翔午</h1>
+        <h2>Hino Shoma</h2>
+      </div>
+      <nav class="navi" id="page-link">
+        <li><a href="#area1">status</a></li>
+        <li><a href="#area2">hobbies</a></li>
+        <li><a href="#area3">access</a></li>
+        <li><a href="#area4">my photo museum</a></li>
+      </nav>
+    </section>
+    <section class="content">
+      <div class="area" id="area1">
+        <h3>status</h3>
+      </div>
+      <div class="area" id="area2">
+        <h3>hobbies</h3>
+      </div>
+      <div class="area" id="area3">
+        <h3>access</h3>
+      </div>
+      <div class="area" id="area4">
+        <h3>my photo</h3>
+        <!--スペースで改行されてる  -->
+        <ul class="slider">
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <!--/slider-->
+        </ul>
+      </div>
+    </section>
     <script src="main.js"></script>
+    <footer>
+      <ul>
+        <li>auther : Shoma Hino</li>
+        <li>update : 2023/7/27</li>
+      </ul>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </body>
 </html>

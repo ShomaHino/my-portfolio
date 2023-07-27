@@ -1,0 +1,65 @@
+.header {
+  background-color: rgba(246, 246, 246, 0.785);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Correct the selector for .top section */
+.top {
+  background-image: url("my-portforio-photo/top.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  color: white;
+  padding-top: 100px;
+}
+
+.name {
+  margin-left: 200px;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+    "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+.navi {
+  margin: 30px;
+  text-align: center; /*反映されてない*/
+}
+.navi li {
+  font-size: 80%;
+  float: left;
+  padding: 5px;
+  border-style: solid;
+  border-width: thin;
+  list-style-type: none;
+  margin: 5px;
+}
+
+.navi li:hover {
+  background-color: aqua;
+  color: white;
+}
+
+.content {
+  margin: 20px;
+}
+
+h3 {
+  /* 不要な width プロパティを削除します */
+}
+
+footer {
+  background-color: dimgrey;
+}
+
+/* Wrap footer content in an <ul> element */
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  color: white;
+  list-style: none;
+  font-size: 12px; /* 適切なフォントサイズを指定します */
+}
