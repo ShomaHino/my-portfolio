@@ -49,7 +49,7 @@ li {
 }
 
 .content {
-  margin: 20px;
+  margin-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -58,22 +58,27 @@ li {
   justify-content: center;
   flex-direction: column;
 }
+.area-container {
+  display: flex;
+  justify-content: center;
+}
+
 .area {
   text-align: center;
 }
+
 h3 {
   border-bottom: 0.1rem /*remも単位*/ solid #333;
-  margin: 20px 300px;
+}
+
+#status-item {
+  text-align: center;
 }
 
 .hobby-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.area {
-  margin-left: 100px;
+  gap: 10px;
 }
 
 footer {
